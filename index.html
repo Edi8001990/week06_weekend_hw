@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/app.js"></script>
+    <title>Super Awesome Form</title>
+  </head>
+  <body>
+
+      <form class="my_form" action="index.html" method="post">
+        <div class="form-wrapper">
+
+          <div class="form-element">
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+          </div>
+
+
+        <div class="form-element">
+                <label for="last_name">Last name:</label>
+                <input type="text" id="last_name">
+          </div>
+
+
+            <div class="form-element">
+                <label for="gender">Gender:</label>
+                <select id="gender">
+                        <option value="" disabled selected>&nbsp;</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                </select>
+          </div>
+
+          <!-- <div class="form-element">
+              <label for="Educated">Educated</label>
+              <input type="radio" name="status" value="Educated" id="educated">
+              <label for="non educated">Non Educated</label>
+              <input type="radio" name="status" value="Non educated" id="non_educated">
+        </div> -->
+
+
+          <input type="submit" value="Save">
+
+
+        </div>
+
+      </form>
+
+
+      <div class="button">
+        <button class="remove-button">Remove</button>
+      </div>
+
+      <div class="new-input"></div>
+
+  </body>
+</html>
